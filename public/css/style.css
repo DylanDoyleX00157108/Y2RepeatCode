@@ -1,0 +1,56 @@
+  /* Fonts from Google Fonts - more at https://fonts.google.com */
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+  @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+  
+body 
+  {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  display:flex; 
+  flex-direction:column; 
+}
+
+h4
+{
+	font-size: 32px;
+	color:#38342F;
+  font-family: "Rockwell";
+}
+
+input
+{
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+footer {
+  position: fixed;
+  bottom:0%;
+  height:40px;
+  width:100%;
+  color: #CE974F;
+  background:#B01317;
+  text-align: center;
+}
+
+.subtitle
+{
+  padding-left: 15px;
+}
+
+.paragraph
+{
+  color:#B01317;
+	font-family: "Constantia";
+  padding-left: 0.4em;
+  border: 0.1em dashed #B01317;
+  border-radius: 0.3em;
+  margin: 1.3em;
+  background-color: #F9E5CC;
+}
+
+.nav-link
+{
+  color: #38342F;
+}

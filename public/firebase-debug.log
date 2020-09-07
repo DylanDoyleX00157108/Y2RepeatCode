@@ -1,0 +1,21 @@
+[debug] [2020-09-07T03:57:38.958Z] ----------------------------------------------------------------------
+[debug] [2020-09-07T03:57:38.971Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dylan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-09-07T03:57:38.974Z] CLI Version:   8.10.0
+[debug] [2020-09-07T03:57:38.974Z] Platform:      win32
+[debug] [2020-09-07T03:57:38.975Z] Node Version:  v14.9.0
+[debug] [2020-09-07T03:57:38.979Z] Time:          Mon Sep 07 2020 04:57:38 GMT+0100 (Irish Standard Time)
+[debug] [2020-09-07T03:57:38.980Z] ----------------------------------------------------------------------
+[debug] [2020-09-07T03:57:38.981Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=123214812&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-09-07T04:12:48.620Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/3wEoMCSx5NRx6GxVKkd4n3xVrZg2g58YMLcM_5XmGkSXW3FL0QhfSAolY5sp4v4C08a1fFMOYt7HBmie4jU5_mU","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-07T04:12:48.816Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 07 Sep 2020 04:12:48 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] +  Success! Logged in as dylandoyle120@gmail.com 
